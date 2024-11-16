@@ -2,13 +2,12 @@
 #include "pico/time.h"
 #include <tusb.h>
 #include "Adafruit_NeoPixel.hpp"
+#include "definitions.hpp"
 
-#define PIN 21
-#define NUMPIXELS 19
 #define DELAYVAL 200
 
 void example() {
-	Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+	Adafruit_NeoPixel pixels(Constants::PixelNumber, Constants::PixelPin, NEO_GRB + NEO_KHZ800);
 	pixels.begin();
 
 	for (int l; l < 4; l++) {
