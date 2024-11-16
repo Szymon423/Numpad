@@ -13,7 +13,6 @@ void example() {
 
 	for (int l; l < 4; l++) {
 		pixels.clear();
-		printf("cleared pixels 1\n");
 		for (int i = 0; i < NUMPIXELS; i++) { 
 			pixels.setPixelColor(i, pixels.Color((i % 3) * 150, ((i + 1) % 3) * 150, ((i + 2) % 3) * 150));
 			pixels.show(); 
@@ -24,8 +23,6 @@ void example() {
 
 int main() {
 	stdio_init_all();
-	while (!tud_cdc_connected()) {sleep_ms(100);}
-	printf("Starting simple\n"); 
 	while (true) {
 		example();
 	}
