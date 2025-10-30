@@ -1,0 +1,2326 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8862f795-76ea-4b83-847f-675f879645be")
+	(paper "A4")
+	(title_block
+		(title "Numpad")
+		(date "2025-10-28")
+		(rev "v2.0")
+		(company "Szymon Wąchała")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 196.85 129.54)
+		(uuid "cce1870e-e4d2-4b40-b8f2-5feb6f5f74a6")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 171.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbb8c7a-5e3d-4d6a-b023-7752cc963eb6")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 171.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f304fb-afaa-4e24-bf65-edd686b6b51a")
+	)
+	(wire
+		(pts
+			(xy 35.56 104.14) (xy 35.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aee0aeb-9f45-4df7-92a8-8ee755f95619")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f05715c-37ad-473f-9eed-a27e9ee2d137")
+	)
+	(wire
+		(pts
+			(xy 196.85 55.88) (xy 199.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f797bb9-a20e-4294-abe6-975cf9588cc2")
+	)
+	(wire
+		(pts
+			(xy 266.7 53.34) (xy 241.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25000c56-8b9c-4241-8086-f17ba7051f71")
+	)
+	(wire
+		(pts
+			(xy 196.85 104.14) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f75a54-6d80-42ff-a466-69fc1d2ab9de")
+	)
+	(wire
+		(pts
+			(xy 152.4 81.28) (xy 154.94 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fa7a5c-b60c-448c-990d-a2b70a9ffbf6")
+	)
+	(wire
+		(pts
+			(xy 241.3 55.88) (xy 243.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af936b6-c82b-43d8-8800-10ffc9ede48c")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 82.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45bc434b-c128-47bb-8563-7fa3cc05e2f0")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 110.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b52f7bb-52bd-4bf7-9b14-848f8607a4a3")
+	)
+	(wire
+		(pts
+			(xy 152.4 53.34) (xy 171.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6b376d-0b73-4824-9bfd-4c4d25b6d8e2")
+	)
+	(wire
+		(pts
+			(xy 107.95 132.08) (xy 110.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52abd1ce-3bb2-4b2b-8ab5-27d16996f994")
+	)
+	(wire
+		(pts
+			(xy 35.56 129.54) (xy 35.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56dbd20c-e186-44ba-9d27-52c4c22bd42d")
+	)
+	(wire
+		(pts
+			(xy 107.95 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5704a19e-3e0c-4b9c-9afc-535f9bfe914f")
+	)
+	(wire
+		(pts
+			(xy 196.85 78.74) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6814128f-d8d2-41e4-8d6d-c7af485eb269")
+	)
+	(wire
+		(pts
+			(xy 35.56 114.3) (xy 266.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec4543c-bd88-4d40-8bbb-8fa05fc835e0")
+	)
+	(wire
+		(pts
+			(xy 63.5 78.74) (xy 82.55 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed9458a-f38d-46f2-acc6-525411fa621a")
+	)
+	(wire
+		(pts
+			(xy 35.56 104.14) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7068d195-b7aa-43f9-b810-014cda3a50a4")
+	)
+	(wire
+		(pts
+			(xy 152.4 132.08) (xy 154.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2093d6-9a9f-42b7-894a-81142a2854af")
+	)
+	(wire
+		(pts
+			(xy 196.85 106.68) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8215fe05-77a2-47d3-9cd6-00721967fa7e")
+	)
+	(wire
+		(pts
+			(xy 35.56 63.5) (xy 266.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821b149a-dc5f-4471-a2dd-234537563bbc")
+	)
+	(wire
+		(pts
+			(xy 241.3 104.14) (xy 266.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832faa8a-5a32-4667-b4aa-e9dd02d8a389")
+	)
+	(wire
+		(pts
+			(xy 266.7 63.5) (xy 266.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89862f45-81b6-4d70-91c8-bbaaee188e14")
+	)
+	(wire
+		(pts
+			(xy 107.95 106.68) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89cb85f7-4a48-4599-84fd-f998eccd98b5")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 66.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6a5b76-97e6-4c68-a1cd-d8ec4ed7fea0")
+	)
+	(wire
+		(pts
+			(xy 63.5 104.14) (xy 82.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95561de1-b143-42db-9ae3-7016c19c805a")
+	)
+	(wire
+		(pts
+			(xy 35.56 78.74) (xy 38.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9591433e-a153-4832-9ac6-7e0b4763b5b0")
+	)
+	(wire
+		(pts
+			(xy 241.3 81.28) (xy 243.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6fc4eb-c181-40f6-8a65-60ba28a1a597")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28) (xy 66.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79dfde9-32f9-4fe6-a96e-b1508787950f")
+	)
+	(wire
+		(pts
+			(xy 35.56 53.34) (xy 38.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ae8f90-dc44-400e-9e8b-3f9399a7a143")
+	)
+	(wire
+		(pts
+			(xy 266.7 88.9) (xy 266.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b57b88-f76f-444d-a64b-017d5fb953e9")
+	)
+	(wire
+		(pts
+			(xy 107.95 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9067a81-e5ff-4fc4-aa34-bda14ec2b1e1")
+	)
+	(wire
+		(pts
+			(xy 107.95 53.34) (xy 127 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9cc6873-61dc-4506-b5a5-31ff7276eb8d")
+	)
+	(wire
+		(pts
+			(xy 241.3 78.74) (xy 266.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab2c864-2e3a-4d2d-9ea8-1bdb5ee1bfd5")
+	)
+	(wire
+		(pts
+			(xy 107.95 129.54) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad6d5db-f7b1-4b15-9b58-d55bd849b911")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfdaa625-78f2-4144-9569-1ef8df39091f")
+	)
+	(wire
+		(pts
+			(xy 35.56 88.9) (xy 266.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b10bb9-cdb5-46cc-8989-52d82e0454e8")
+	)
+	(wire
+		(pts
+			(xy 196.85 53.34) (xy 215.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f24c54-3713-4c93-b1e3-d03ce9dc87e1")
+	)
+	(wire
+		(pts
+			(xy 196.85 81.28) (xy 199.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2485729-cf65-402a-af6f-045004b46177")
+	)
+	(wire
+		(pts
+			(xy 63.5 129.54) (xy 82.55 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3575cba-b9e2-420b-8097-ea26e005cd9f")
+	)
+	(wire
+		(pts
+			(xy 63.5 106.68) (xy 66.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b0d367-6775-4647-bded-e6b2d71428ac")
+	)
+	(wire
+		(pts
+			(xy 35.56 78.74) (xy 35.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f5bd71-0121-447d-9ba2-afbdfe12b6f8")
+	)
+	(wire
+		(pts
+			(xy 241.3 106.68) (xy 243.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80450f0-e1db-4bcf-9daf-c789623b9f43")
+	)
+	(wire
+		(pts
+			(xy 266.7 114.3) (xy 266.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8450b5f-70ce-4783-8161-2595708aa545")
+	)
+	(wire
+		(pts
+			(xy 63.5 132.08) (xy 66.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e862635c-1a4e-4366-a99b-963bedc25b8c")
+	)
+	(wire
+		(pts
+			(xy 35.56 129.54) (xy 38.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e72faf-be27-458d-b885-47a4ce35f783")
+	)
+	(wire
+		(pts
+			(xy 196.85 132.08) (xy 199.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede2f187-4cc0-430c-8fb0-e75e1a97ceec")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf2c4fc-1006-446e-bddc-aa140d8de7bb")
+	)
+	(wire
+		(pts
+			(xy 107.95 55.88) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4533f68-9417-43a0-b243-af1a8466b35f")
+	)
+	(global_label "Button-18"
+		(shape input)
+		(at 110.49 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00586ae3-7e8e-49d4-837f-5c4973e72582")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.635 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-8"
+		(shape input)
+		(at 154.94 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00d6687b-6a59-4e2b-a82b-f8222b6c797b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.8755 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-2"
+		(shape input)
+		(at 66.04 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b1df298-6cac-4b54-8a1b-c4eb78f3e671")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.9755 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-5"
+		(shape input)
+		(at 243.84 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28f3b965-d684-42b9-8893-c442cf27a4f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.7755 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED-MCU"
+		(shape input)
+		(at 35.56 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37140124-dd92-4864-9913-6d56192fa45e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.5034 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-12"
+		(shape input)
+		(at 66.04 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3aff6189-84dd-404e-bf67-9ef4b88ef4dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.185 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-9"
+		(shape input)
+		(at 110.49 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40aa2349-87c4-4766-b81f-26c327f0ede7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.4255 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-15"
+		(shape input)
+		(at 243.84 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4450a5ea-2a8a-4d50-975f-d430b87368b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.985 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-4"
+		(shape input)
+		(at 199.39 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c2bbf94-df88-4d26-a7d5-8ac33a0cce5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.3255 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-1"
+		(shape input)
+		(at 110.49 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f183041-f83a-4dd9-866a-206bc813331e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.4255 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-10"
+		(shape input)
+		(at 154.94 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fcd8750-fab3-4c8f-9f6a-af6c90cee2fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.085 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-13"
+		(shape input)
+		(at 110.49 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63177c74-5c1e-404c-a290-ced816e54535")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.635 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-11"
+		(shape input)
+		(at 243.84 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6776fbe0-d237-41ec-97d4-9add735c8014")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.985 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-19"
+		(shape input)
+		(at 154.94 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "918b69b5-9100-4daf-9388-27dbc693477e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.085 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-14"
+		(shape input)
+		(at 66.04 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a09378c8-2065-47d8-b7d8-4e6b020a6c9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.185 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-16"
+		(shape input)
+		(at 199.39 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0e708fa-43f5-4cd4-8a14-ba69a84b3762")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.535 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-3"
+		(shape input)
+		(at 154.94 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bed0584b-19c2-41c4-872d-3fc6bbcd4581")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.8755 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-7"
+		(shape input)
+		(at 199.39 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7b4b82d-5642-4332-862b-a5ced7ebf5c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.3255 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-6"
+		(shape input)
+		(at 66.04 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f091c905-5bfc-4d87-ae95-fbc61c85dd6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.9755 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button-17"
+		(shape input)
+		(at 199.39 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f80c966d-dd01-4e7e-939f-94543e71eefa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.535 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 76.2)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0526ced2-499b-450c-ad39-73191d329ccc")
+		(property "Sheetname" "Button6"
+			(at 38.1 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 38.1 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 38.1 78.74 180)
+			(uuid "22f34aef-364b-4ecc-87bc-52315a0b52b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 63.5 78.74 0)
+			(uuid "e8d8f499-5d18-4781-bf31-a4a234afaad9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 63.5 81.28 0)
+			(uuid "fc2c5209-d7fe-451d-b0c6-c47a559e2fe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07019f4f-059c-40c0-887a-7a5d6969a358")
+		(property "Sheetname" "Button8"
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 127 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 127 78.74 180)
+			(uuid "fa175523-6d05-40e6-a610-03d1ba57dccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 152.4 78.74 0)
+			(uuid "8fe114d2-394b-4be7-bc92-b04bec628891")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 152.4 81.28 0)
+			(uuid "27300940-c9d3-421e-88cf-7bf8fde18c7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 101.6)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c0d6b0b-d3a1-462b-9afb-63f79303ea72")
+		(property "Sheetname" "Button12"
+			(at 38.1 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 38.1 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 38.1 104.14 180)
+			(uuid "8890ef1e-2366-4d8e-b4e0-05c4d70747f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 63.5 104.14 0)
+			(uuid "f37fcb0e-5f89-4a20-80d0-7fe748b2c8b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 63.5 106.68 0)
+			(uuid "6e22119b-ab4a-45da-b7b9-b56ebd8292a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 127)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b1b09e9-488b-4534-b8ed-ea2e99034c3c")
+		(property "Sheetname" "Button18"
+			(at 82.55 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 82.55 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 82.55 129.54 180)
+			(uuid "7e3c57d6-b952-4acd-a632-f6e8b9f679a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 107.95 129.54 0)
+			(uuid "4d860c01-3a74-429e-acf4-36cf1f88ee80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 107.95 132.08 0)
+			(uuid "70564af8-a95b-4cec-8780-383343103902")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 76.2)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "234feb1f-c4c7-45a5-949a-96a580163f3d")
+		(property "Sheetname" "Button11"
+			(at 215.9 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 215.9 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 215.9 78.74 180)
+			(uuid "9ffad9d1-fcb3-4f3d-b5b3-bf04da887014")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 241.3 78.74 0)
+			(uuid "fbee4096-9f7e-4ec3-83fa-227aa5f17b06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 241.3 81.28 0)
+			(uuid "7dac5742-2354-4c15-9c69-d4b991d57682")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 50.8)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c58e326-9950-460e-b460-71e22f02a790")
+		(property "Sheetname" "Button1"
+			(at 82.55 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 82.55 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 82.55 53.34 180)
+			(uuid "329f0431-cdee-4bba-bfa7-7c78e3af881f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 107.95 53.34 0)
+			(uuid "36fe5f6d-d5b4-4e9b-9dea-ca333a65a110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 107.95 55.88 0)
+			(uuid "6d419738-19e7-49c1-9528-cc66435512ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 127)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c54c39d-f160-4ff8-8d2f-fc0d444a56e8")
+		(property "Sheetname" "Button17"
+			(at 171.45 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 171.45 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 171.45 129.54 180)
+			(uuid "9e22a2da-1435-4bfb-a67e-6928aaaa06cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 196.85 129.54 0)
+			(uuid "4fa21e69-4f46-4073-96c0-3a9c276f916c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 196.85 132.08 0)
+			(uuid "8fdf3dab-151e-4afd-8257-b60eb766ac13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 76.2)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c53b50c-37b3-45d2-94a6-b69042f8832a")
+		(property "Sheetname" "Button9"
+			(at 82.55 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 82.55 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 82.55 78.74 180)
+			(uuid "3e814e6b-82a5-438c-b01b-29847688a68a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 107.95 78.74 0)
+			(uuid "c46c07ae-1c7c-4d74-9ecc-bb235dba4603")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 107.95 81.28 0)
+			(uuid "b25eebd4-365c-459b-bf14-0be0132d8f17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 101.6)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c663ec1-ca97-48dd-8894-3c266dfbf294")
+		(property "Sheetname" "Button13"
+			(at 82.55 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 82.55 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 82.55 104.14 180)
+			(uuid "7ce1e212-2416-4b99-b071-f29ab4602592")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 107.95 104.14 0)
+			(uuid "f6287471-71b8-4c28-8fc6-9f74347744cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 107.95 106.68 0)
+			(uuid "84b2094e-b7bc-4c40-8785-00cf4492420b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 101.6)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "775c2a50-2ceb-4a8c-a0aa-ff62ecbc4eee")
+		(property "Sheetname" "Button16"
+			(at 171.45 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 171.45 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 171.45 104.14 180)
+			(uuid "d96f5ef0-af10-4061-b85e-9eb370324628")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 196.85 104.14 0)
+			(uuid "da99aec5-b442-43c8-8d47-e57df277bb1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 196.85 106.68 0)
+			(uuid "b1a68280-47ec-4619-a2d3-36331933e74a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 50.8)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81cc2edf-147d-4baf-886d-58002355c636")
+		(property "Sheetname" "Button4"
+			(at 171.45 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 171.45 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 171.45 53.34 180)
+			(uuid "3d002c2f-d3e1-492d-9aec-0e6f5361be52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 196.85 53.34 0)
+			(uuid "a0d3f475-038f-4f3b-b60a-fb0c4769247f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 196.85 55.88 0)
+			(uuid "55c5bf89-dd87-4366-a59b-5c98ff12fb6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 127)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a291393-042c-4adf-a7bf-5796acaf15d0")
+		(property "Sheetname" "Button14"
+			(at 38.1 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 38.1 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 38.1 129.54 180)
+			(uuid "1cfea22a-c920-4873-b65e-ff75007e9554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 63.5 129.54 0)
+			(uuid "e641eddf-5ad0-49a9-9fba-7ea276a076d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 63.5 132.08 0)
+			(uuid "e6910365-40b2-460e-b78b-d7700a7a9c75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 50.8)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c66eab0-e743-4864-9bdf-23c851f195bc")
+		(property "Sheetname" "Button2"
+			(at 38.1 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 38.1 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 38.1 53.34 180)
+			(uuid "bbb4286c-9079-4737-b1d6-465ffbae27fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 63.5 53.34 0)
+			(uuid "44cfeee6-8b56-47ca-a2e0-dc3eb8ef92bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 63.5 55.88 0)
+			(uuid "94cd4e6a-4b1c-4989-90bf-9f39df99efd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 76.2)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af04960a-6ad5-4be8-9346-45d24c995ad9")
+		(property "Sheetname" "Button7"
+			(at 171.45 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 171.45 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 171.45 78.74 180)
+			(uuid "db18009c-6cb8-43ea-a251-606ede200227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 196.85 78.74 0)
+			(uuid "780dccda-8f2d-4af8-9ca4-94befa6af2b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 196.85 81.28 0)
+			(uuid "d475b9b0-e7b0-4225-a91c-8b16d4a48ced")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 50.8)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2a79561-4541-4f9b-b921-d4fd01c6610a")
+		(property "Sheetname" "Button5"
+			(at 215.9 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 215.9 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 215.9 53.34 180)
+			(uuid "3f7eaa09-12f2-4e02-8ce1-d044591069ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 241.3 53.34 0)
+			(uuid "7dc4c380-7130-4950-9dbe-803c4f8e8789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 241.3 55.88 0)
+			(uuid "00da6c37-439c-4bd2-8874-423f00a8a740")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 50.8)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc5adbc2-cc5e-4e8c-90cf-e85f7612b816")
+		(property "Sheetname" "Button3"
+			(at 127 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 127 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 127 53.34 180)
+			(uuid "3371df5f-b6d3-454c-89fe-b2cbac3c3efa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 152.4 53.34 0)
+			(uuid "132763a3-eb7b-493f-8b20-e886c3d57d0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 152.4 55.88 0)
+			(uuid "05d02f07-1e21-47b4-bf51-fd1cc7e2c1a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 101.6)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cfffcf67-246b-4abd-a44d-312852308708")
+		(property "Sheetname" "Button15"
+			(at 215.9 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 215.9 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 215.9 104.14 180)
+			(uuid "9168b871-d43c-4cf7-8cf1-d69e4fd33587")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 241.3 104.14 0)
+			(uuid "fc6a5964-e39a-4368-9c73-80ff91b4d2a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 241.3 106.68 0)
+			(uuid "fb8d2c23-c265-4753-867e-6b701b75ea24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 101.6)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e02a577a-f5fb-471e-8199-65fbb7873b6f")
+		(property "Sheetname" "Button10"
+			(at 127 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 127 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 127 104.14 180)
+			(uuid "d3d84519-5045-4688-9675-761e92ce35e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 152.4 104.14 0)
+			(uuid "25baef58-1ee8-4f1c-b21b-ee76eaf8c874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 152.4 106.68 0)
+			(uuid "cc12e02c-7529-468e-9486-b17cc411eca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 127)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0f19db5-8d61-4175-82a1-19558b750887")
+		(property "Sheetname" "Button19"
+			(at 127 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 127 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED-Din" input
+			(at 127 129.54 180)
+			(uuid "a9d48ffb-91b8-4f4f-956f-1708e226bf6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED-Dout" output
+			(at 152.4 129.54 0)
+			(uuid "50a95594-7f81-4dea-ad75-e7f406a3814a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW" output
+			(at 152.4 132.08 0)
+			(uuid "7357a13e-1d55-413e-ac7a-6cbd2c1144d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b/871689bb-827f-4663-9c0e-8b5fd8c03e80"
+					(page "22")
+				)
+			)
+		)
+	)
+)

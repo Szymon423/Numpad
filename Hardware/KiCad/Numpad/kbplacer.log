@@ -1,0 +1,122 @@
+INFO: kbplacer_plugin_action.py:70: Plugin version: 0.14
+INFO: kbplacer_plugin_action.py:71: Python version: '3.13.7 (main, Aug 14 2025, 00:00:00) [GCC 15.2.1 20250808 (Red Hat 15.2.1-1)]'
+INFO: kbplacer_plugin_action.py:72: KiCad version: 9.0.4 with 4.2.2 gtk3 (phoenix) wxWidgets 3.2.6
+INFO: kbplacer_dialog.py:631: Language: en
+INFO: kbplacer_plugin_action.py:80: GUI state: {"layout_path": "/home/szymon/Downloads/keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+DEBUG: key_placer.py:424: Set key 1U distance: 19050000/19050000
+WARNING: key_placer.py:134: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+DEBUG: key_placer.py:141: Switches by nets: {}
+DEBUG: key_placer.py:145: Diodes by switch: {'SWB2': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SWB1': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW19': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW18': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW17': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW16': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW15': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW14': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW13': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW12': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW11': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW10': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW9': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW8': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW7': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW6': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW5': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW4': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW3': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW2': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'SW1': ['D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1']}
+DEBUG: board_modifier.py:73: Searching for SW1 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+INFO: key_placer.py:620: Looking for connection template between SW1 and other elements
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (206018400, 73143400)
+INFO: key_placer.py:664: Got connection template: 
+INFO: kle_serial.py:931: User layout: [[{'a': 7}, '', '', {'x': 2.25, 'a': 4, 'f': 4, 'w': 14, 'h': 5, 'd': True}, "<h5><b>Getting Started with Keyboard-Layout-Editor.com</b></h5><p>Keyboard-layout-editor.com is a web application that enables the editing of keyboard-layouts, i.e., the position and appearance of each physical key.</p><p>Start by exploring the presets and samples from the menu-bar to give you an idea of the possibilities.  Once you are ready to start designing your own keyboard, just load one of the presets and start customizing it!  Some tips:</p><ul><li>The selected keys can be modified on the <i>Properties</i> tab.</li><li>The <i>Keyboard Properties</i> tab lets you edit the keyboard background and keyboard metadata.</li><li>The <i>Custom Styles</i> tab lets you write advanced CSS styling rules.</li><li>Don't forget the <i>Color Swatches</i> and <i>Character Picker</i> menu items!  These give you easy access to colors and symbol characters, respectively.</li><li>There are a lot of available keyboard shortcuts; press '?' or 'F1' to see a list.</li></ul><p>When you're ready to save your layout, simply 'Sign In' with your <a href='https://www.github.com'>GitHub</a> account and click the <i>Save</i> button.  Your layout will be saved in a GitHub Gist.</p><p>Have fun!</p>"], [{'f': 3}, 'Num Lock', '/', '*', '-'], ['7\nHome', '8\n↑', '9\nPgUp', {'h': 2}, '+'], ['4\n←', '5', '6\n→'], ['1\nEnd', '2\n↓', '3\nPgDn', {'h': 2}, 'Enter'], [{'w': 2}, '0\nIns', '.\nDel']]
+DEBUG: key_placer.py:724: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:990: Layout with: x_ortholinear_keys=19, y_ortholinear_keys=20, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1015: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:94: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW3 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW4 footprint position: (57150000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW5 footprint position: (76200000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW6 footprint position: (95250000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW7 footprint position: (38100000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW8 footprint position: (57150000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW9 footprint position: (76200000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW10 footprint position: (95250000, 85725000)
+DEBUG: board_modifier.py:94: Setting SW11 footprint position: (38100000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW12 footprint position: (57150000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW13 footprint position: (76200000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW14 footprint position: (38100000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW15 footprint position: (57150000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW16 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW17 footprint position: (95250000, 123825000)
+DEBUG: board_modifier.py:94: Setting SW18 footprint position: (47625000, 133350000)
+DEBUG: board_modifier.py:94: Setting SW19 footprint position: (76200000, 133350000)
+INFO: key_placer.py:1078: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+DEBUG: key_placer.py:854: Placing additional elements for SWB2
+DEBUG: board_modifier.py:107: Getting SWB2 footprint position: (236555200, 59348000)
+DEBUG: board_modifier.py:84: Searching for optional STB2 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SWB1
+DEBUG: board_modifier.py:107: Getting SWB1 footprint position: (236555200, 54098000)
+DEBUG: board_modifier.py:84: Searching for optional STB1 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW19
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (76200000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW18
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (47625000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW17
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (95250000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW16
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW15
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (57150000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW14
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (38100000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW13
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (76200000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW12
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (57150000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW11
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (38100000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW10
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (95250000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW9
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (76200000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW8
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (57150000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW7
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (38100000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW6
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (95250000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW5
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (76200000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW4
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (57150000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW3
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW2
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW1
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in /home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Numpad/Numpad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:520: Removing dangling tracks

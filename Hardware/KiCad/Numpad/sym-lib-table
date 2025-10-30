@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "S3B_PH_SM4_TB")(type "KiCad")(uri "/home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Library/S3B_PH_SM4_TB/S3B_PH_SM4_TB.kicad_sym")(options "")(descr ""))
+)

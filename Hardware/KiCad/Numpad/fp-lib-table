@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SW_Gateron_LowProfile_KS33_THT")(type "KiCad")(uri "/home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Library/SW_Gateron_LowProfile_KS33_THT/SW_Gateron_LowProfile_KS33_THT.pretty")(options "")(descr ""))
+  (lib (name "S3B_PH_SM4_TB")(type "KiCad")(uri "/home/szymon/Projects/Personal/Numpad/Hardware/KiCad/Library/S3B_PH_SM4_TB/S3B_PH_SM4_TB.pretty")(options "")(descr ""))
+)

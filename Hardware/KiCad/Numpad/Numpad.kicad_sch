@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d0314a4b-dc44-4f98-b737-941b516bac3b")
+	(paper "A4")
+	(title_block
+		(title "Numpad")
+		(date "2025-10-28")
+		(rev "v2.0")
+		(company "Szymon Wąchała")
+	)
+	(lib_symbols)
+	(sheet
+		(at 127 63.5)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26f87a3d-6f39-487d-aa3a-b75e820478ad")
+		(property "Sheetname" "Microcontroller"
+			(at 127 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 127 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 63.5)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "871689bb-827f-4663-9c0e-8b5fd8c03e80")
+		(property "Sheetname" "Buttons"
+			(at 76.2 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 76.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 63.5)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b5cdeb70-9f82-447d-be97-ad404a6a817a")
+		(property "Sheetname" "Power-Section"
+			(at 177.8 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power-section.kicad_sch"
+			(at 177.8 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Numpad"
+				(path "/d0314a4b-dc44-4f98-b737-941b516bac3b"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
